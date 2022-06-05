@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+.header{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    position: fixed;
+}
+.container{
+    margin: 0 auto;
+}
+.logo{
+    padding: 15px;
+    border-style: solid;
+    border-width: 0.7px;
+}
+.logo img{
+    height: 20px;
+}
+.nav{
+    padding: 18px;
+    border-style: solid;
+    border-width: 0.7px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+.nav ul {
+    list-style: none;
+}
+.nav li {
+    margin: 0 30px;
+}
+.nav li a {
+    color: rgb(1, 1, 1);
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Space Mono', monospace;
+}
+.nav li a:hover {
+    color: rgb(0, 136, 255);
+}
+.facebook img{
+    width: 18px;
+}
+.facebook{
+    margin: 0 30px;
+}
+.instagram{
+    margin: 0 30px;
+}
+.instagram img{
+    width: 18px;
+}
+.pages{
+    padding: 16px;
+    border-style: solid;
+    border-width: 0.7px;
+}
+.tieng a{
+    font-size: 12px;
+    font-family: 'Space Mono', monospace;
+    color: rgb(1,1,1);
+    text-decoration: none;
+}
+.tieng a:hover {
+    color: rgb(0, 136, 255);
+}
+.tieng{
+    padding: 18.5px;
+    border-style: solid;
+    border-width: 0.7px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+.cart ul{
+    list-style: none;
+}
+.cart li a{
+    color: rgb(0,47,255);
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Space Mono', monospace;
+}
+.cart li a:hover{
+    color: rgb(0, 136, 255);
+}
+.cart li{
+    color: rgb(0,47,255);
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Space Mono', monospace;
+    margin: 0 10px;
+}
+.cart{
+    padding: 18.5px;
+    border-style: solid;
+    border-width: 0.7px;
+}
+.main{
+    padding: 55px 0;
+}
+.banner{
+    height: 630px;
+    background-image: url(IMG/intro.jpeg);
+    background-size: cover;
+    border-style: solid;
+    border-width: 0.7px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+}
+.content-banner{
+    font-family: 'Space Mono', monospace;
+    padding: 0 60px;
+    text-align: center;
+    position: absolute;
+    top: 400px;
+}
+.content-banner h1{
+    font-size: 90px;
+    color: rgb(1, 36, 194);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1.7px
+}
+.btn {
+    padding: 10px 32px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0,47,255);
+}
+.product-title{
+    text-align: center;
+    padding: 20px 0;
+    border-style: solid;
+    border-width: 0.7px;
+}
+.product-title h1{
+    font-family: 'Space Mono',monospace;
+    font-size: 20px;
+    color: rgb(0,47,255);
+}
+.feature{
+    height: 400px;
+    overflow: hidden;
+}
+.feature img{
+    width: 100%;
+}
+.feature a:hover{
+    opacity: 80%;
+}
+.product{
+    padding: 40px 20px;
+}
+.card{
+    margin: 0 20px;
+}
+.content{
+    margin-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+.add{
+    margin-top: 20px;
+    padding: 15px 0;
+    border-style: solid;
+    border-width: 0.7px;
+}
+.add a{
+    list-style: none;
+    font-family: 'Space Mono',monospace;
+    text-decoration: none;
+    color: rgb(0,47,255);
+    margin-left: 20px;
+    font-weight: bold;
+}
+.add a:hover{
+    color: rgb(0, 136, 255);
+}
+.add p{
+    font-family: 'Space Mono',monospace;
+    margin-right: 20px;
+}
+.blog-title a{
+    font-family: 'Space Mono',monospace;
+    font-size: 50px;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(0,47,255);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+}
+.blog-title{
+    text-align: center;
+    padding: 20px 0;
+    border-style: solid;
+    border-width: 0.7px;
+}
+.blog-title a:hover{
+    opacity: 80%;
+}
+.box{
+    background-color: white;
+}
+.tips{
+    font-family: 'Space Mono',monospace;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-right: 20px;
+    color: rgb(0,47,255);
+    line-height: 40px;
+}
+.readmore a{
+    list-style: none;
+    font-family: 'Space Mono',monospace;
+    text-decoration: none;
+    color: rgb(0,47,255);
+}
+.readmore a:hover{
+    color: rgb(0, 136, 255);
+}
+.article{
+    margin: 60px 20px;
+}
+.content p{
+    font-weight: 500;
+    font-size: 20px;
+}
+.footer{
+    background-color: rgb(0,47,255);
+}
+.slogan{
+    padding: 114.5px 30px;
+    border-style: solid;
+    border-width: 0.7px;
+    color: white;
+    font-family: 'Space Mono',monospace;
+    font-size: 25px;
+}
+.about ul{
+    padding: 40px 30px;
+    list-style: none;
+}
+.about li{
+    margin-top: 10px;
+}
+.about li a{
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+.about li a:hover{
+    opacity: 80%;
+}
+.contact{
+    border-style: solid;
+    border-width: 0.7px;
+    border-left-width: 0px;
+    color: white;
+}
+.policy{
+    border-style: solid;
+    border-width: 0.7px;
+    border-left-width: 0px;
+    color: white;
+}
+.social{
+    border-style: solid;
+    border-width: 0.7px;
+    border-left-width: 0px;
+    color: white;
+}
+.mail{
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 190px;
+}
+.mail h1{
+    color: white;
+    font-family: 'Space Mono',monospace;
+    margin-bottom: 10px;
+}
+.mail p{
+    color: white;
+    font-family: 'Space Mono',monospace;
+}
+.box2{
+    margin-top: 35px;
+    margin-bottom: 65px;
+    height: 60px;
+    border-style: solid;
+    border-width: 0.7px;
+    color: white;
+}
+.box2 p{
+    margin-left: 20px;
+    opacity: 50%;
+}
+.box2 img{
+    width: 20px;
+    margin-right: 20px;
+}
+.box2 a:hover{
+    opacity: 80%;
+}
+.instagram2{
+    width: 100%;
+    padding: 28.3px 0;
+    border-style: solid;
+    border-width: 0.7px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    color: white;
+}
+.instagram2 img{
+    width: 50px;
+}
+.socialmedia a:hover{
+    opacity: 80%;
+}
